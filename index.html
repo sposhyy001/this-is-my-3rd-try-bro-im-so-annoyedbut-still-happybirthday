@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simrat</title>
+    <link rel="icon" type="image/png" href="icon.jpg">
+    <link rel="stylesheet" href="stlye.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="intro-page">
+    <div class="border">
+        <div class="intro">
+            <h1>Happy Birthday Simrat!</h1>
+            <p><strong>If you are Simrat welcome! but if you are not...
+                        ginagawa mo dito beh?</strong></p>
+        </div>
+        <div class="btn">
+            <h3><a href="note.html" id="password-link">Click Me!</a></h3>
+        </div>
+    </div>
+    <script>
+        document.getElementById("password-link").addEventListener("click", function (event) {
+            const password = window.prompt("Enter the password:");
+
+            if (password !== "oldhag2008twin") {
+                event.preventDefault();
+                if (password !== null) {
+                    window.alert("Incorrect password.");
+                }
+            }
+        });
+    </script>
+</body>
+</html>

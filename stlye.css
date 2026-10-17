@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Gaegu:wght@400;700&family=Mali:wght@400;600&family=Nunito:wght@600;700&family=Quicksand:wght@500;700&family=Sniglet&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255); 
+    font-family: 'Gaegu', cursive;
+    color: #ffffff; 
+    font-size: 26px;
+    margin: 0;
+}
+
+.intro-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    border: 2px solid rgb(170, 32, 101); 
+    background-color: #DE7272; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 15px #B93636; 
+}
+
+.intro {
+    text-align: center;
+}
+
+.btn {
+    background-color: #e747a5; 
+    border: 2px solid #ffffff;
+    padding: 2px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 16px;
+}
+
+.btn h3 {
+    margin: 0;
+}
+
+.btn:hover {
+    background-color: #cc0077; 
+    transform: scale(1.05);
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #ff63d8; 
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #ffffff;
+}
